@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Russo+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: Roboto;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4px 10px;
+    background-color: white;
+}
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 5px 5px 13px 0px #a39c9c;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+}
+.nav-bar {
+    align-self: center;
+    display: flex;
+}
+.nav-bar h3  {
+    align-self: center;
+    font-family: 'Russo One', sans-serif;
+    margin: 0 12px;
+    color: black;
+}
+.pages {
+    display: flex;
+    align-self: center;
+    margin-right: 120px;
+}
+.pages li a {
+    color: #149F39;
+    text-decoration: none;
+    padding: 6px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+}
+.pages ul li {
+    list-style: none;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.pages li:hover {
+    color: black;
+    transform: scale(1.14);
+}
+.bar {
+    display: flex;
+    align-self: center;
+    font-size: 24px;
+    color: black;
+}
+
+
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    height: 70vh;
+}
+.hero-img img {
+    width: 400px;
+}
+.tag {
+    display: flex;
+}
+.tag p {
+    background-color: #149F39;
+    padding: 3px 14px;
+}
+.hero-content {
+    padding: 100px;
+}
+.hero-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+}
+.hero-content p {
+    line-height: 19px;
+}
+button {
+    padding: 6px 18px;
+    color: white;
+    background-color: #149F39;
+    border: none;
+}
+.btn {
+    background-color: #FFC066;
+    margin: 12px 0;
+}
+
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 65%;
+    margin-top: 25px 0 25px 0;
+}
+.feature-img img {
+    width: 60px;
+}
+.feature-content h4 {
+    padding: 0 4px 6px 4px;
+}
+
+.services {
+    text-align: center;
+    padding: 12px 0px 0 0;
+    margin-top: 40px;
+}
+.menu-btn {
+    margin: 4px;
+}
+.services h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.menu {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+     "I1 I1 I2 I3"
+     "I1 I1 I2 I7"
+     "I4 I5 I6 I7";
+}
+.menu img {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.menu img:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+
+.box-1 {
+    grid-area: I1;
+}
+.box-2 {
+    grid-area: I2;
+}
+.box-3 {
+    grid-area: I3;
+}
+.box-4 {
+    grid-area: I4;
+}
+.box-5 {
+    grid-area: I5;
+}
+.box-6 {
+    grid-area: I6;
+}
+.box-7 {
+    grid-area: I7;
+}
+
